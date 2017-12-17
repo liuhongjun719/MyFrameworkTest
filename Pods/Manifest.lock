@@ -1,0 +1,21 @@
+PODS:
+  - CustomIOSAlertView (0.9.5)
+  - FCAlertView (1.3.1)
+  - MBProgressHUD (1.0.0)
+  - SCLAlertView-Objective-C (1.1.2)
+
+DEPENDENCIES:
+  - CustomIOSAlertView (~> 0.9.5)
+  - FCAlertView
+  - MBProgressHUD (~> 1.0.0)
+  - SCLAlertView-Objective-C
+
+SPEC CHECKSUMS:
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  FCAlertView: 083c067bfd98f147abf5a66fe0e31cefac7bc809
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SCLAlertView-Objective-C: 0e54351fa4f98a5c7c6ad3727e6dbb46784534e5
+
+PODFILE CHECKSUM: ec412ddfe91e8836921bc4d6ad6498881188442a
+
+COCOAPODS: 1.2.1
