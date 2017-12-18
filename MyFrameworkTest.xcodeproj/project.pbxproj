@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031D0F4EAEDC31E96185901E /* Pods_MyFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668A886E52839BBAA6ACB401 /* Pods_MyFrameworkTest.framework */; };
 		155194631FDE8FB600B944C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155194621FDE8FB600B944C9 /* AppDelegate.m */; };
 		155194661FDE8FB600B944C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155194651FDE8FB600B944C9 /* ViewController.m */; };
 		155194691FDE8FB600B944C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155194671FDE8FB600B944C9 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		155194C21FDEE6ED00B944C9 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155194C11FDEE6ED00B944C9 /* MyFramework.framework */; };
 		155194C31FDEE6FB00B944C9 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155194C11FDEE6ED00B944C9 /* MyFramework.framework */; };
 		155194C41FDEE6FB00B944C9 /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 155194C11FDEE6ED00B944C9 /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		215D554333AB53EFE0747FD7 /* libPods-MyFrameworkTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B249B66B8D68B79276D05 /* libPods-MyFrameworkTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		003B249B66B8D68B79276D05 /* libPods-MyFrameworkTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFrameworkTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1551945E1FDE8FB500B944C9 /* MyFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155194611FDE8FB600B944C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		155194621FDE8FB600B944C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		1551948A1FDE8FB600B944C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155194C11FDEE6ED00B944C9 /* MyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyFramework.framework; sourceTree = "<group>"; };
 		44E1FE8726FEDA32475571DF /* Pods-MyFrameworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFrameworkTest/Pods-MyFrameworkTest.release.xcconfig"; sourceTree = "<group>"; };
+		668A886E52839BBAA6ACB401 /* Pods_MyFrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014989159EB05F67F020CD1 /* Pods-MyFrameworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFrameworkTest/Pods-MyFrameworkTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 			files = (
 				155194C21FDEE6ED00B944C9 /* MyFramework.framework in Frameworks */,
 				155194C31FDEE6FB00B944C9 /* MyFramework.framework in Frameworks */,
-				215D554333AB53EFE0747FD7 /* libPods-MyFrameworkTest.a in Frameworks */,
+				031D0F4EAEDC31E96185901E /* Pods_MyFrameworkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +175,7 @@
 		7FCAF8682FAFB1AF4F975190 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				003B249B66B8D68B79276D05 /* libPods-MyFrameworkTest.a */,
+				668A886E52839BBAA6ACB401 /* Pods_MyFrameworkTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

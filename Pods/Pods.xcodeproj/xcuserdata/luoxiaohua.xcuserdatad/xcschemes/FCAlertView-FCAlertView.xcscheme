@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6E415CA92D5EC83116ACA7D2DAE0DF50'
+               BlueprintIdentifier = '1613271357771814C71601D90B787D94'
                BlueprintName = 'FCAlertView-FCAlertView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FCAlertView.bundle'>

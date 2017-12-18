@@ -8,9 +8,10 @@
 
 #import "ViewController.h"
 #import <MyFramework/MyFramework.h>
-#import <SCLAlertView.h>
+//#import <SCLAlertView.h>
 #import "FCAlertView.h"
-#import <CustomIOSAlertView.h>
+//#import <CustomIOSAlertView.h>
+#import "NetworkManage.h"
 
 
 
@@ -42,18 +43,20 @@ NSString *kAttributeTitle = @"Attributed string operation successfully completed
 }
 
 - (IBAction)showAlert:(id)sender {
-    CustomIOSAlertView *alertView = [[CustomIOSAlertView alloc] init];
-    UIScrollView *customView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
-    customView.contentSize = CGSizeMake(300, 500);
-    customView.backgroundColor = [UIColor whiteColor];
-    [alertView setContainerView:customView];
-    [alertView setButtonTitles:[NSMutableArray arrayWithObjects:@"取消", @"确定",@"删除", nil]];
-
-    [alertView show];
-    [alertView setOnButtonTouchUpInside:^(CustomIOSAlertView *alertView, int buttonIndex) {
-        NSLog(@"Block: Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
-        [alertView close];
-    }];
+    NetworkManage *manager = [[NetworkManage alloc] init];
+    [manager showMessage];
+//    CustomIOSAlertView *alertView = [[CustomIOSAlertView alloc] init];
+//    UIScrollView *customView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+//    customView.contentSize = CGSizeMake(300, 500);
+//    customView.backgroundColor = [UIColor whiteColor];
+//    [alertView setContainerView:customView];
+//    [alertView setButtonTitles:[NSMutableArray arrayWithObjects:@"取消", @"确定",@"删除", nil]];
+//
+//    [alertView show];
+//    [alertView setOnButtonTouchUpInside:^(CustomIOSAlertView *alertView, int buttonIndex) {
+//        NSLog(@"Block: Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
+//        [alertView close];
+//    }];
     
     
 //    NSString *text = @"My Alert Title";
